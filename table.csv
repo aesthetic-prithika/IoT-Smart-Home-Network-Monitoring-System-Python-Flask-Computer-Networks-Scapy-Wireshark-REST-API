@@ -1,0 +1,11 @@
+Endpoint,Method,Description
+/api/status,GET,System status
+/api/devices,GET,All devices
+/api/devices/<mac>,GET,Device details
+/api/devices/<mac>/authorize,POST,Authorize device
+/api/traffic,GET,Traffic statistics
+/api/alerts,GET,Security alerts
+/api/alerts/<id>/acknowledge,POST,Acknowledge alert
+/api/scan,POST,Trigger network scan
+/api/monitor/start,POST,Start packet capture
+/api/monitor/stop,POST,Stop packet capture
